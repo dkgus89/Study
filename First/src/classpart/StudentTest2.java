@@ -9,7 +9,8 @@ public class StudentTest2 {
 		student2.studentName="안승연";
 		
 		System.out.println(student1);
-		System.out.println(student2);
+		System.out.println(student2); 
+		
 	}
 
 }
