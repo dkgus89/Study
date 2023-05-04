@@ -18,7 +18,7 @@ public class Customer {	//멤버변수
 		this.customerName=customerName;
 	customerGrade = "SILVER";	//기본등급
 	bonusRatio = 0.01;			//보너스포인트 기본적립비율
-	System.out.println("Customer(int, String) 생성자 호출");	//상위 클래스 생성할 때 콘솔 출력문
+//	System.out.println("Customer(int, String) 생성자 호출");	//상위 클래스 생성할 때 콘솔 출력문
 }
 	
 	public int calcPrice(int price) {	// 보너스포인트 적립, 지불가격 계산 메서드

@@ -18,9 +18,9 @@ public class VIPCustomer extends Customer{	//VIPCustomer 클래스는 Customer�
 		bonusRatio = 0.05;		//보너스적립 5%
 		saleRatio = 0.1;		//할인율 10;
 		this.agentID=agentID;
-		System.out.println("VIPCustomer(int, String, int) 생성자 호출");
+//		System.out.println("VIPCustomer(int, String, int) 생성자 호출");
 	}
-	
+	@Override
 	public int calcPrice(int price) {	// 보너스포인트 적립, 지불가격 계산 메서드
 		bonusPoint += price * bonusRatio;	//보너스포인트 계산
 		return price-(int)(price*saleRatio);	//할인율 적용
